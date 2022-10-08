@@ -133,11 +133,19 @@
   color: #6cfac6;
   border: 5px solid #09b778;
 }
+.buttons{
+  display: flex;
+  flex-direction: row;
+  column-gap: 8rem;
+  margin-left: 4rem;
+  height: 30rem;
+
+}
 .first-block {
-  position: absolute;
-  width: 495px;
-  height: 267px;
-  left: 91px;
+  position: relative;
+  width: 395px;
+  height: 167px;
+  /* left: 91px; */
   top: 1020px;
   font-family: "Poppins";
   font-style: normal;
@@ -150,10 +158,10 @@
   border-radius: 34px;
 }
 .mid-block {
-  position: absolute;
-  width: 497px;
-  height: 267px;
-  left: 586px;
+  position: relative;
+  width: 395px;
+  height: 167px;
+  /* left: 586px; */
   top: 1020px;
   font-family: "Poppins";
   font-style: normal;
@@ -167,10 +175,10 @@
   border-radius: 34px;
 }
 .last-block {
-  position: absolute;
-  width: 495px;
-  height: 267px;
-  right: 91px;
+  position: relative;
+  width: 395px;
+  height: 167px;
+  /* right: 91px; */
   top: 1020px;
   font-family: "Poppins";
   font-style: normal;
@@ -187,10 +195,10 @@
 }
 .first-block:hover {
   box-sizing: border-box;
-  position: absolute;
-  width: 472px;
+  position: relative;
+  width: 395px;
   height: 337px;
-  left: 91px;
+  /* left: 91px; */
   top: 1020px;
   font-family: "Poppins";
   font-style: normal;
@@ -207,10 +215,10 @@
 }
 .mid-block:hover {
   box-sizing: border-box;
-  position: absolute;
-  width: 472px;
+  position: relative;
+  width: 395px;
   height: 337px;
-  left: 597px;
+  /* left: 597px; */
   top: 1020px;
   font-family: "Poppins";
   font-style: normal;
@@ -227,10 +235,10 @@
 }
 .last-block:hover {
   box-sizing: border-box;
-  position: absolute;
-  width: 472px;
+  position: relative;
+  width: 395px;
   height: 337px;
-  right: 91px;
+  /* right: 91px; */
   top: 1020px;
   font-family: "Poppins";
   font-style: normal;
