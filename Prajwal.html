@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Website</title>
+    <style>
+    .hello span{
+            color:greenyellow;
+            background-color:rgb(32, 16, 16);
+           
+    }
+   
+    
+    a{
+            color:rgb(249, 253, 1);
+    }
+    </style>
+      
+      <!-- changing colour of list -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- in-line style method -->
+    <h1 style = "color:rgb(244, 248, 0); background:black; width:560px">welcome to Finance world </h1>
+    <p class="hello"> <span>hello money</span> </p>
+    <p class="hello"> <span>ways of </span> <span style="background-color:greenyellow; color: black;">investments</span> </p>
+    <ul>
+        <li> gold </li>
+        <li> real estate</li>
+        <li> stocks </li>
+    </ul>
+    <!-- here target attribute is used for opening the link in another tab-->
+    <p style="font-size: 28px;">Go to <a style="background-color: black;" href="https://moneycontrol.com" target="_main">this</a> link to analyse the market</p>
+    <hr> 
+    <div class="goldDigger" >
+        <span>This will attract Gold Digger.</span> 
+    </div>
+     
+    <!-- jab image load nhi hogi tab, alt k madat se apn user ko bata skte ki woh image kiski thi ... -->
+    <img class='imagee' src="https://thumbs.dreamstime.com/z/love-money-23481628.jpg" alt="Money image">
+    
+    <div class="oneLine">
+     <table border ="1" class="liColour">
+         <caption>Percent of return from diff assets</caption>
+        <tr>
+            <th>WAYS</th>
+            <th>ROI</th>
+        </tr>
+        <tr>
+            <td>GOLD</td>
+            <td>8%</td>
+        </tr>
+        <tr>
+            <td>STOCKS</td>
+            <td>15%</td>
+        </tr>
+        <tr>
+            <td>REAL ESTATE</td>
+            <td>8%</td>
+        </tr>
+     </table>
+
+     <div>Here i have used ,</div>
+     <div>display: flex</div>
+
+    </div>
+    <!-- creating a box by ID method-->
+    <div id="boxID">this is a box by ID</div>
+    <!-- creating a box by class method-->
+    <div class="boxCLASS">this is a box by class</div>
+
+    <div>For good ROI drop your info below</div>
+     
+    <!-- with the help of lable tag in radio button we can make click on button by clicking on text also. -->
+    <!-- we can select only one option in radio button , multiple options in checkbox-->
+    <form action = "index.html" method = "GET">
+        <p>select your gender--</p>
+        <label for="101">
+        <input type="radio" value="Male" name="Gender" id="101">Male
+        </label>
+        <label for="102">
+        <input type="radio" value="Female" name="Gender" id="102">Female
+        </label>
+
+        <p>in which assets do you like to invest</p>
+        <label for="G">
+        <input type="checkbox" value="gold" name="asset" id="G">Gold
+        </label>
+        <label for="S">
+        <input type="checkbox" value="Stocks" name="asset" id="S">Stocks
+        </label>
+        <label for="R">
+        <input type="checkbox" value="Real estate" name="asset" id="R">Real estate
+        </label>
+        <br>
+        <input type="text" name="name" placeholder="name"> <br>
+        <input type="number" number="number" placeholder="Mobile number"><br>
+        
+        Select the name of your city
+        <select name="city" id="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+        </select><br>
+
+        <textarea name="feedback" id="F" placeholder="please give some valuable feedbacks here"></textarea><br>
+
+        <button type="submit">submit</button>
+    </form><br>
+     
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9Bp0_aiL6QM" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <iframe src="https://en.wikipedia.org/wiki/Main_Page" frameborder="20" height="560" width="560"></iframe><br>
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
